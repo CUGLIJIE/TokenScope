@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+/build/
+/dist/
+*.spec
+*.exe
+*.sqlite3
+*.sqlite3-*
+*.log
+.env
+.env.*
+.codex/
+.claude/
+auth.json

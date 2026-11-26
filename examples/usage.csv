@@ -1,0 +1,61 @@
+﻿event_id,account,tool,model,timestamp,input_tokens,output_tokens,cached_tokens,cache_write_tokens
+example-0-1,示例 · 研究,Claude Code,claude-example,2026-10-20T05:00:00.000Z,6611,600,2842,340
+example-1-0,示例 · 开发,Codex,gpt-example,2026-10-21T04:01:00.000Z,5647,1330,2428,0
+example-1-1,示例 · 研究,Claude Code,claude-example,2026-10-21T05:01:00.000Z,8758,1330,3765,340
+example-2-0,示例 · 开发,Codex,gpt-example,2026-10-22T04:02:00.000Z,7794,2060,3351,0
+example-2-1,示例 · 研究,Claude Code,claude-example,2026-10-22T05:02:00.000Z,10905,2060,4689,340
+example-3-0,示例 · 开发,Codex,gpt-example,2026-10-23T04:03:00.000Z,9941,2790,4274,0
+example-3-1,示例 · 研究,Claude Code,claude-example,2026-10-23T05:03:00.000Z,13052,2790,5612,340
+example-4-0,示例 · 开发,Codex,gpt-example,2026-10-24T04:04:00.000Z,12088,3520,5197,0
+example-4-1,示例 · 研究,Claude Code,claude-example,2026-10-24T05:04:00.000Z,15199,3520,6535,340
+example-5-0,示例 · 开发,Codex,gpt-example,2026-10-25T04:05:00.000Z,14235,4250,6121,0
+example-6-1,示例 · 研究,Claude Code,claude-example,2026-10-26T05:06:00.000Z,19493,4980,8381,340
+example-7-0,示例 · 开发,Codex,gpt-example,2026-10-27T04:07:00.000Z,18529,1010,7967,0
+example-7-1,示例 · 研究,Claude Code,claude-example,2026-10-27T05:07:00.000Z,21640,1010,9305,340
+example-8-0,示例 · 开发,Codex,gpt-example,2026-10-28T04:08:00.000Z,20676,1740,8890,0
+example-8-1,示例 · 研究,Claude Code,claude-example,2026-10-28T05:08:00.000Z,23787,1740,10228,340
+example-9-0,示例 · 开发,Codex,gpt-example,2026-10-29T04:09:00.000Z,22823,2470,9813,0
+example-9-1,示例 · 研究,Claude Code,claude-example,2026-10-29T05:09:00.000Z,25934,2470,11151,340
+example-10-0,示例 · 开发,Codex,gpt-example,2026-10-30T04:10:00.000Z,24970,3200,10737,0
+example-10-1,示例 · 研究,Claude Code,claude-example,2026-10-30T05:10:00.000Z,28081,3200,12074,340
+example-11-0,示例 · 开发,Codex,gpt-example,2026-10-31T04:11:00.000Z,27117,3930,11660,0
+example-12-1,示例 · 研究,Claude Code,claude-example,2026-11-01T05:12:00.000Z,32375,4660,13921,340
+example-13-0,示例 · 开发,Codex,gpt-example,2026-11-02T04:13:00.000Z,31411,690,13506,0
+example-13-1,示例 · 研究,Claude Code,claude-example,2026-11-02T05:13:00.000Z,34522,690,14844,340
+example-14-0,示例 · 开发,Codex,gpt-example,2026-11-03T04:14:00.000Z,33558,1420,14429,0
+example-14-1,示例 · 研究,Claude Code,claude-example,2026-11-03T05:14:00.000Z,3869,1420,1663,340
+example-15-0,示例 · 开发,Codex,gpt-example,2026-11-04T04:15:00.000Z,35705,2150,15353,0
+example-15-1,示例 · 研究,Claude Code,claude-example,2026-11-04T05:15:00.000Z,6016,2150,2586,340
+example-16-0,示例 · 开发,Codex,gpt-example,2026-11-05T04:16:00.000Z,5052,2880,2172,0
+example-16-1,示例 · 研究,Claude Code,claude-example,2026-11-05T05:16:00.000Z,8163,2880,3510,340
+example-17-0,示例 · 开发,Codex,gpt-example,2026-11-06T04:17:00.000Z,7199,3610,3095,0
+example-18-1,示例 · 研究,Claude Code,claude-example,2026-11-07T05:18:00.000Z,12457,4340,5356,340
+example-19-0,示例 · 开发,Codex,gpt-example,2026-11-08T04:19:00.000Z,11493,5070,4941,0
+example-19-1,示例 · 研究,Claude Code,claude-example,2026-11-08T05:19:00.000Z,14604,5070,6279,340
+example-20-0,示例 · 开发,Codex,gpt-example,2026-11-09T04:20:00.000Z,13640,1100,5865,0
+example-20-1,示例 · 研究,Claude Code,claude-example,2026-11-09T05:20:00.000Z,16751,1100,7202,340
+example-21-0,示例 · 开发,Codex,gpt-example,2026-11-10T04:21:00.000Z,15787,1830,6788,0
+example-21-1,示例 · 研究,Claude Code,claude-example,2026-11-10T05:21:00.000Z,18898,1830,8126,340
+example-22-0,示例 · 开发,Codex,gpt-example,2026-11-11T04:22:00.000Z,17934,2560,7711,0
+example-22-1,示例 · 研究,Claude Code,claude-example,2026-11-11T05:22:00.000Z,21045,2560,9049,340
+example-23-0,示例 · 开发,Codex,gpt-example,2026-11-12T04:23:00.000Z,20081,3290,8634,0
+example-24-1,示例 · 研究,Claude Code,claude-example,2026-11-13T05:24:00.000Z,25339,4020,10895,340
+example-25-0,示例 · 开发,Codex,gpt-example,2026-11-14T04:25:00.000Z,24375,4750,10481,0
+example-25-1,示例 · 研究,Claude Code,claude-example,2026-11-14T05:25:00.000Z,27486,4750,11818,340
+example-26-0,示例 · 开发,Codex,gpt-example,2026-11-15T04:26:00.000Z,26522,780,11404,0
+example-26-1,示例 · 研究,Claude Code,claude-example,2026-11-15T05:26:00.000Z,29633,780,12742,340
+example-27-0,示例 · 开发,Codex,gpt-example,2026-11-16T04:27:00.000Z,28669,1510,12327,0
+example-27-1,示例 · 研究,Claude Code,claude-example,2026-11-16T05:27:00.000Z,31780,1510,13665,340
+example-28-0,示例 · 开发,Codex,gpt-example,2026-11-17T04:28:00.000Z,30816,2240,13250,0
+example-28-1,示例 · 研究,Claude Code,claude-example,2026-11-17T05:28:00.000Z,33927,2240,14588,340
+example-29-0,示例 · 开发,Codex,gpt-example,2026-11-18T04:29:00.000Z,32963,2970,14174,0
+example-30-1,示例 · 研究,Claude Code,claude-example,2026-11-19T05:30:00.000Z,5421,3700,2331,340
+example-31-0,示例 · 开发,Codex,gpt-example,2026-11-20T04:31:00.000Z,4457,4430,1916,0
+example-31-1,示例 · 研究,Claude Code,claude-example,2026-11-20T05:31:00.000Z,7568,4430,3254,340
+example-32-0,示例 · 开发,Codex,gpt-example,2026-11-21T04:32:00.000Z,6604,5160,2839,0
+example-32-1,示例 · 研究,Claude Code,claude-example,2026-11-21T05:32:00.000Z,9715,5160,4177,340
+example-33-0,示例 · 开发,Codex,gpt-example,2026-11-22T04:33:00.000Z,8751,1190,3762,0
+example-33-1,示例 · 研究,Claude Code,claude-example,2026-11-22T05:33:00.000Z,11862,1190,5100,340
+example-34-0,示例 · 开发,Codex,gpt-example,2026-11-23T04:34:00.000Z,10898,1920,4686,0
+example-34-1,示例 · 研究,Claude Code,claude-example,2026-11-23T05:34:00.000Z,14009,1920,6023,340
+example-35-0,示例 · 开发,Codex,gpt-example,2026-11-24T04:35:00.000Z,13045,2650,5609,0
