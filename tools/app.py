@@ -147,7 +147,7 @@ class Handler(BaseHTTPRequestHandler):
             data=json.loads(self.rfile.read(length))
             if not isinstance(data,dict):
                 raise ValueError("请求必须为对象")
-        elif url.path in ("/","/app.css","/app.js"):
+        elif url.path in ("/","/app.css","/app.js","/language.js","/messages.js"):
             f=WEB/({"/":"index.html"}.get(url.path,url.path[1:]))
             typ={".js":"text/javascript",".css":"text/css",".html":"text/html"}[f.suffix]
             return self.respond(f.read_bytes(),typ+"; charset=utf-8")

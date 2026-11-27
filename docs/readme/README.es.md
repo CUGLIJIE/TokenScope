@@ -3,7 +3,7 @@
 [English](../../README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · **Español** · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português (Brasil)](README.pt-BR.md)  
 [Italiano](README.it.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Русский](README.ru.md) · [العربية](README.ar.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.id.md)
 
-Consulta el consumo de tokens de varias cuentas de Codex y Claude Code en Windows. El panel se ejecuta en tu equipo y su interfaz está en chino simplificado.
+Consulta el consumo de tokens de varias cuentas de Codex y Claude Code en Windows. El panel local sigue las preferencias de idioma del navegador y usa inglés si no hay coincidencias. Puedes guardar otra opción en **Idioma**.
 
 - **Uso en la nube de Codex.** Muestra el total de la cuenta y, cuando están disponibles, los datos diarios. La sincronización usa el cliente de Codex instalado y tu sesión de ChatGPT.
 - **Uso local.** Desglosa por modelo los tokens de entrada, de salida y de caché a partir de registros de sesión o archivos JSON/CSV. Los totales locales y los de la nube se muestran por separado para evitar duplicados.
@@ -18,9 +18,11 @@ Instala Python 3.10 o posterior en Windows y ejecuta este comando en PowerShell 
 
 El panel se abre en `http://127.0.0.1:8765`. Si falta el cliente de Codex, encontrarás un enlace para instalar ChatGPT para Windows. Los datos de uso se guardan en SQLite en tu equipo.
 
-Para probarlo sin iniciar sesión, importa [usage.json](../../examples/usage.json) en **账号与数据** (Cuentas y datos) y selecciona **本地与导入 → 全部日期** (Datos locales e importados → Todas las fechas).
+Para probarlo sin iniciar sesión, importa [usage.json](../../examples/usage.json) en **Cuentas y datos** y selecciona **Datos locales e importados → Todas las fechas**.
 
 ## Pruebas y compilación
+
+El paquete de código sin conexión para Windows x64 incluye Python y las herramientas de compilación. Extrae el paquete y ejecuta los scripts directamente.
 
 ```powershell
 .\test.cmd

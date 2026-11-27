@@ -251,7 +251,7 @@ class Ledger(unittest.TestCase):
             with urllib.request.urlopen(urllib.request.Request(url+path,**kw),timeout=5) as res:
                 return res.read()
         self.assertIn(b"TokenScope",read("/"))
-        for path in ["/app.js","/app.css","/api/status","/api/report"]:self.assertTrue(read(path))
+        for path in ["/app.js","/app.css","/messages.js","/language.js","/api/status","/api/report"]:self.assertTrue(read(path))
         headers={"Content-Type":"application/json","X-TokenScope-Request":"1"}
         data=json.dumps({"format":"json","content":json.dumps([event()])}).encode()
         with self.assertRaises(urllib.error.HTTPError) as denied:
